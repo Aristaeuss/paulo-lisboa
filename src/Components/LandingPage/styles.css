@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:900&display=swap');
+
+* {
+    font-family: Raleway, sans-serif;
+}
+
+.nav-bar {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-wrapper {
+    margin: 0;
+    width: 50%;
+    padding: 0.5rem;
+    display: flex;
+    justify-content:flex-end;
+    z-index:1;
+}
+
+.title {
+    width: 100%;
+    margin: 0;
+    font-weight: 400;
+    color: whitesmoke;    
+    font-size: 4rem;
+    font-weight: bolder;
+    line-height: 3.3rem;
+    letter-spacing: -0.15rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.dot-menu {
+    margin-top: 0;
+    margin-left: 10px;
+    padding: 0.5rem;
+    height: 80px;
+    width: 20px;
+    cursor: pointer;
+    z-index: 20;
+}
+
+.dot-menu .first-button {
+    width: 20px;
+    height: 20px;
+    color: transparent;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.dot-menu .first-button:hover {
+    width: 100px;
+    color: black;
+    border-radius: 50px;
+    transition: 0.5s;
+}
+
+.dot-menu .first-button button {
+    width: 100%;
+    height: 20px;
+    font-size: 0;
+    font-weight: 600;
+    color: transparent;
+    background-color: transparent;
+    border: 0;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    z-index: 10px;
+    transition: 0.5s;
+}
+
+.dot-menu .first-button button:hover {
+    width: 100px;
+    font-size: 0.8rem;
+    color: black;
+    transition: 0.5s;
+}
+
+.dot-menu .second-button {
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    color: transparent;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.dot-menu .second-button:hover {
+    width: 100px;
+    color: black;
+    border-radius: 50px;
+    transition: 0.5s;
+}
+
+.dot-menu .second-button button {
+    width: 100%;
+    height: 20px;
+    font-size: 0;
+    font-weight: 600;
+    color: transparent;
+    background-color: transparent;
+    border: 0;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    z-index: 10px;
+    transition: 0.5s;
+}
+
+.dot-menu .second-button button:hover {
+    width: 100px;
+    font-size: 0.8rem;
+    color: black;
+    transition: 0.5s;
+}
+
+.dot-menu .third-button {
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: transparent;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.dot-menu .third-button:hover {
+    color: black;
+    border-radius: 50px;
+    transition: 0.5s;
+}
+
+.dot-menu .third-button button {
+    width: 100%;
+    height: 20px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: transparent;
+    background-color: transparent;
+    border: 0;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    z-index: 10px;
+    transition: 0.5s;
+}
+
+.dot-menu .third-button button:hover {
+    width: 100px;
+    color: whitesmoke;
+    transition: 1s;
+}
