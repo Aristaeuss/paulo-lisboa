@@ -1,37 +1,27 @@
 import React from 'react';
-import { Component } from 'react/cjs/react.development';
+import { useTranslation } from 'react-i18next';
+import i18n from '../translate/i18n';
 
-class Language extends Component {
+function Language() {
+    const { t, i18n } = useTranslation();
+    const [lang, setLang] = React.useState('pt');
 
-    constructor(props){
-        super(props)
-
-        this.state = {
-            language: 'pt'
-        }
-    }
-
-    clickHandler() {
-        if(this.state.language === 'pt'){
-            this.setState({
-                language: 'en'                
-            }) 
+    function clickHandler() {
+        if (lang === 'pt') {
+            setLang(lang => 'en')
         } else {
-            this.setState({
-                language: 'pt'                
-            })
-        }    
+            setLang(lang => 'pt') 
+        }
+        i18n.changeLanguage(lang);
     }
-
-    render() {
-        return (
-            <>
+    
+    return (
+        <>
             <div className="third-button">
-                <button onClick={() => this.clickHandler()}>{this.state.language}</button>
+                <button onClick={() => clickHandler()}>{t('pt.1')}</button>
             </div>
-            </>
-        )
-    }
+        </>
+    )
 }
 
 export default Language

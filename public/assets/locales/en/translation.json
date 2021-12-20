@@ -1,3 +1,13 @@
 {
-    "biografia" : "Biography"
+    "pt" : {
+        "1": "en"
+    },
+
+    "Biografia" : {
+        "1": "Biography"
+    },
+
+    "Exposicoes" : {
+        "1": "Exibitions"
+    }    
 }
