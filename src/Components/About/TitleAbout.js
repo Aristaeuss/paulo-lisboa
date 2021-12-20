@@ -1,7 +1,7 @@
 import React from 'react';
 import './navbarabout.css'
 
-function PageTitle() {
+function TitleAbout() {
     return (
         <div className="title-wrapper-about">
             <div className="title-about">Paulo Lisboa</div>
@@ -9,4 +9,4 @@ function PageTitle() {
     )
 }
 
-export default PageTitle
+export default TitleAbout

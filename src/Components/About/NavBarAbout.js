@@ -1,21 +1,21 @@
-import React, { Component } from 'react'
+import React from 'react'
 import './navbarabout.css'
 import DotMenuAbout from './DotMenuAbout'
 import TitleAbout from './TitleAbout'
 
-export class NavBarGray extends Component {
-    render() {
-        return (
-            <>
-                <div className="nav-bar-about">
-                    <DotMenuAbout />
-                    <div className="title-about">
-                        <TitleAbout />
-                    </div>
+function NavBarAbout() {
+    
+    return (
+        <>
+            <nav className="nav-bar-about">
+                <DotMenuAbout />
+                <div className="title-about">
+                    <TitleAbout />
                 </div>
-            </>
-        )
-    }
+            </nav>
+        </>
+    )
+    
 }
 
-export default NavBarGray
+export default NavBarAbout

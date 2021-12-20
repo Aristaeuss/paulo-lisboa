@@ -8,13 +8,13 @@ body {
     margin: 0;
 }
 
-.nav-bar-about-main {
+.nav-bar-expos-main {
     overflow: hidden;
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
 }
 
-.about-body {
+.expos-body {
     margin: 140px 20px 10px 40px;
 }

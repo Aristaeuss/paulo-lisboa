@@ -1,19 +1,21 @@
-import React, { Component } from 'react';
+import React from 'react';
 import NavBarAbout from './NavBarAbout';
 import AboutBody from './AboutBody';
 import './about.css';
 
-export class About extends Component {
-    render() {
-        return (
-            <>
-                <div className="nav-bar-about-main">
-                    <NavBarAbout />
-                </div>    
+function About() {
+    
+    return (
+        <>
+            <div className="nav-bar-about-main">
+                <NavBarAbout />
+            </div>  
+            <div className="about-body">  
                 <AboutBody />
-            </>
-        )
-    }
+            </div>
+        </>
+    )
+    
 }
 
 export default About

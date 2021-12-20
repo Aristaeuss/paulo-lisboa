@@ -3,7 +3,7 @@
 * {
     font-family: Raleway, sans-serif;
 }
-.nav-bar-about {
+.nav-bar-expos {
     width: 100%;
     height: 120px;
     font-weight: 900;
@@ -12,7 +12,7 @@
     justify-content: space-between;
 }
 
-.title-wrapper-about {
+.title-wrapper-expos {
     margin: 0;
     width: 50%;
     padding: 0.5rem;
@@ -21,7 +21,7 @@
     z-index:1;
 }
 
-.title-about {
+.title-expos {
     width: 100%;
     margin: 0;
     color: rgb(48, 48, 48);    
@@ -34,7 +34,7 @@
 }
 
 
-.dot-menu-about {
+.dot-menu-expos {
     margin-top: 0;
     margin-left: 10px;
     padding: 0.5rem;
@@ -44,8 +44,8 @@
     z-index: 20;
 }
 
-.dot-menu-about .about-title p{
-    margin: 0;
+.dot-menu-expos .expos-title p{
+    margin-top: 10px;
     width: 100px;
     height: 20px;
     color: whitesmoke;
@@ -59,10 +59,10 @@
     align-items: center;
 }
 
-.dot-menu-about .second-button {
+.dot-menu-expos .first-button {
     width: 20px;
     height: 20px;
-    margin-top: 10px;
+    margin: 0px;
     color: transparent;
     background-color: rgb(48, 48, 48);
     border-radius: 20px;
@@ -70,14 +70,14 @@
     transition: 0.5s;
 }
 
-.dot-menu-about .second-button:hover {
+.dot-menu-expos .first-button:hover {
     width: 100px;
     color: whitesmoke;
     border-radius: 50px;
     transition: 0.5s;
 }
 
-.dot-menu-about .second-button button {
+.dot-menu-expos .first-button button {
     width: 100%;
     height: 20px;
     font-size: 0;
@@ -92,17 +92,17 @@
     transition: 0.5s;
 }
 
-.dot-menu-about .second-button button:hover {
+.dot-menu-expos .first-button button:hover {
     width: 100px;
     font-size: 0.8rem;
     color: whitesmoke;
     transition: 0.5s;
 }
 
-.dot-menu-about .third-button {
+.dot-menu-expos .third-button {
     width: 20px;
     height: 20px;
-    margin-top: 10px;
+    margin-top: -3px;
     font-size: 0.8rem;
     font-weight: 600;
     color: transparent;
@@ -111,13 +111,13 @@
     text-align: center;
 }
 
-.dot-menu-about .third-button:hover {
+.dot-menu-expos .third-button:hover {
     color: whitesmoke;
     border-radius: 50px;
     transition: 0.5s;
 }
 
-.dot-menu-about .third-button button {
+.dot-menu-expos .third-button button {
     width: 100%;
     height: 20px;
     font-size: 0.8rem;
@@ -132,7 +132,7 @@
     transition: 0.5s;
 }
 
-.dot-menu-about .third-button button:hover {
+.dot-menu-expos .third-button button:hover {
     width: 100px;
     color: rgb(48, 48, 48);
     transition: 1s;

@@ -5,7 +5,7 @@ import { useTranslation } from 'react-i18next';
 import Language from '../Language';
 
 
-function DotMenu() {
+function DotMenuAbout() {
 
     const { t, i18n } = useTranslation();
 
@@ -26,4 +26,4 @@ function DotMenu() {
             )
 }
 
-export default DotMenu
+export default DotMenuAbout
