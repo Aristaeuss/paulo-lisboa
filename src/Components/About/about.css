@@ -13,6 +13,7 @@ body {
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
+    z-index: 100;
 }
 
 .about-body {
@@ -20,16 +21,45 @@ body {
     width: 100%;
 }
 
-.img-about-wraper {
-    display: flex;
-}
-
-.img-about-wraper img {
+.row {
     width: 100%;
-    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.img-about1-2 {
-    position: fixed;
+.img-wrapper {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row.img-wrapper.img-about1{
     width: 50%;
+    
+}
+
+.row p {
+    position: absolute;
+    background-color: whitesmoke;
+    padding: 20px;
+    text-align: justify;
+    width: 75%;
+    font-size: 2rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.text-about-wrapper {
+    width: 100%;
+    padding: 0.5rem;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+}
+
+.text-about-wrapper p {
+    width: 50%;
+    text-align: justify;
 }
