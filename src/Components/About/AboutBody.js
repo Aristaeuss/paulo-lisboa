@@ -10,16 +10,18 @@ function AboutBody() {
     
     return (
         <>
-            <div className="row">
+            <div className="box">
                 <div className="images">
                     <div className="img-about1">
-                        <img src={ImageAbout1} />
+                        <img className='img1' src={ImageAbout1} />
                     </div>
                     <div className="img-about2">
-                        <img src={ImageAbout2} />
+                        <img className='img2' src={ImageAbout2} />
                     </div>
-                    {/*<span>"{t('Texto_Sobre.1')}"</span>
-                    <span>"{t('Texto_Sobre.2')}"</span>*/}
+                    {/*<span>"{t('Texto_Sobre.2')}"</span>*/}
+                </div>
+                <div className="text1">
+                    <p>"{t('Texto_Sobre.1')}"</p>
                 </div>
             </div>    
             {/* <div className="text-about-wrapper">

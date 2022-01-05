@@ -7,18 +7,22 @@
 }
 
 .about-body {
-    max-width: 100vw;
-    margin: 120px 0px 0px 0px;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
 }
 
-.row {
+.box {
     width: 100%;
+    height: 100%;
     margin: 0;
-    padding: 1rem;
+    padding-top: calc(120px + 1rem);
 }
 
 .images {
+    height: 100%;
     display: flex;
+    justify-content: center;
 }
 
 .img-about1 {
@@ -41,16 +45,42 @@
     object-fit: cover;
 }
 
-.row span {
-    width: 75%;
-    position: absolute;
-    background-color: whitesmoke;
-    padding: 20px;
-    text-align: justify;
-    font-size: 2rem;
+.img1 {
+    transform: translate(15%, 10%) scale(0.7);
+} 
+
+.img2 {
+    transform: translateY(30%);
+} 
+
+.text1 {
+    width: 100%;
+    height: 100%;
+    top: 3rem;
+    position: fixed;
+    text-align: center;
+    font-size: 1.5rem;
     font-weight: bold;
     display: flex;
-    justify-content: flex-end;
+    align-items: center;
+}
+
+.text1 p {
+    width: 100%;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 75%);
+} 
+
+@media (min-width:450px) {
+    .text1 p {
+        width: 80%;
+    }
+}    
+
+@media (min-width:808px) {
+    .text1 p {
+        width: 60%;
+    }
 }
 
 /* .text-about-wrapper {
