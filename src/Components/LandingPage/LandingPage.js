@@ -7,7 +7,7 @@ function LandingPage() {
         <>
             <div className="landing-page-body">
                 <NavBar />
-                <div class="crossfade">
+                <div className="crossfade">
 	            	<figure></figure>
 	            	<figure></figure>
 	            	<figure></figure>
