@@ -16,7 +16,7 @@ function AboutBody() {
 
     useEffect(() => {
         window.addEventListener("scroll", handleScroll);
-        Aos.init({duration: 1000});
+        Aos.init({duration: 2000});
 
         return () => window.removeEventListener("scroll", handleScroll);
     }, [])
@@ -28,20 +28,21 @@ function AboutBody() {
             <div className="box">
                 <div className="images">
                     <div className="img-about1" data-aos='fade-up' data-aos-delay="1000"
-                        style={{transform: `translateY(${offsetY * 0.3}px)`}}>
+                        style={{transform: `translateY(${offsetY * 0.5}px)`}}>
                         <img className='img1' src={ImageAbout1} />
                     </div>
                     <div className="img-about2" data-aos='fade-up' data-aos-delay="500"
-                        style={{transform: `translateY(${offsetY * 0.4}px)`}}>
+                        style={{transform: `translateY(${offsetY * 0.5}px)`}}>
                         <img className='img2' src={ImageAbout2} />
                     </div>
                 </div>
-                <div data-aos='fade-up' className="text1">
-                    <p>"{t('Texto_Sobre.1')} {t('Texto_Sobre.2')}"</p>
+                <div className="text1">
+                    <p data-aos='fade-up'>"{t('Texto_Sobre.1')}"</p>
+                    <p data-aos='fade-up' data-aos-delay="3000">"{t('Texto_Sobre.2')}"</p>
                 </div>
             </div> 
             <div className="box2">
-                <div className="box2-content-wrapper" data-aos='fade-up' data-aos-delay="1000">
+                <div className="box2-content-wrapper" data-aos='fade-up' data-aos-delay="2000">
                     <div className="img-about3">
                         <img className='img3-1' src={ImageAbout3_1} />
                         <img className='img3' src={ImageAbout3} />
